@@ -81,10 +81,17 @@ _빅엔디안_ 은 큰 바이트부터 낮은 주소에 저장됨을 의미( 리
 문자열 "ABCD" 에서
 <img width="1220" height="432" alt="image" src="https://github.com/user-attachments/assets/f49405d2-641b-43fb-87a3-59855f43a340" />
 
--> 10진수 65 ( 문자 A)는 2진수로 01000001 => 쪼개면 0100,0001 고 각 10진수로 4와1임 -> 10진수 4와1은 16진수로도 동일하므로 0x41이 됨
+-> 10진수 65 (문자 A)는 2진수로 01000001 => 쪼개면 0100,0001 고 각 10진수로 4와1임 => 10진수 4와1은 16진수로도 동일하므로 0x41이 됨
 
 
-  
+<img width="1180" height="734" alt="image" src="https://github.com/user-attachments/assets/e3f4c737-c41d-4617-bb03-e6eb011086f5" />
+
+다음 코드에서 문자열 "ABCD"가 메모리에 저장되며 리틀엔디안을 따른다.(맨 오른쪽의 LSB부터 낮은 주소에 저장됨)
+-> 해당 문자열은 16진수 41424344인데 실제 메모리 주소에는 44434241 으로 저장이 되고 해석을 41424344로 하는 것임 
+
+<img width="918" height="598" alt="image" src="https://github.com/user-attachments/assets/fa4e5f3d-90c9-4da6-9340-606a2dde94de" />
+
+
 
 
 
