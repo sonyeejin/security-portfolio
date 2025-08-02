@@ -14,6 +14,7 @@ write up: 해킹 문제에서 플래그 찾는(문제 풀이)과정 정리한 �
 
 16진법은 0부터9,A부터F로 수를 표현하는 것 -> 2진수 0b1100은 16진수로 0xC로 표기한다
 
+//출처: https://jerryjerryjerry.tistory.com/170
 1. 2진수 -> 10진수 변환
 
 2진수 01011000인 경우
@@ -35,6 +36,14 @@ write up: 해킹 문제에서 플래그 찾는(문제 풀이)과정 정리한 �
 
 즉, 11100(2)는 16진수로 0x1C(16)가 된다
 <img width="994" height="756" alt="image" src="https://github.com/user-attachments/assets/8f2738cb-3580-4630-99a2-e7aedc522cbb" />
+
+4. 16진수 -> 10진수 변환
+16진수인 0x 1A4가 있다고 하자
+<img width="1636" height="236" alt="image" src="https://github.com/user-attachments/assets/60bc8b9c-6c8f-457f-8fe9-c435f5e9dbeb" />
+알아둬야할 건 오른쪽부터 자릿수가 16의 0승,,,16의 3승까지 주어진다는 것임
+이제 10진수를 계산하는 방법은 숫자랑 각 자릿수를 곱하고 각각의 값을 더해주면 됨
+<img width="666" height="294" alt="image" src="https://github.com/user-attachments/assets/3e45cc14-ca27-4bc6-b8c3-2e5de8d15ce9" />
+
 
 
 
