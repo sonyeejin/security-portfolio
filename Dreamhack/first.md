@@ -1,4 +1,4 @@
-#dream beginner
+# dream beginner
 
 wed해킹: 웹 서버와  클라이언트 사이에 발생하는 취약점이요한 공격
 system해킹: 소프트웨어의 취약점을 찾아 공격
