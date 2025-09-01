@@ -143,9 +143,7 @@ x>>>n(논리 시프트) : 오른쪽으로 n만큼 이동, 왼쪽은 모두 0으�
 <img width="1262" height="112" alt="image" src="https://github.com/user-attachments/assets/4c8a4445-e67b-4c89-b44f-c29a94f9e7ed" />
 
 
-
-
-
+### < 인코딩,디코딩 >
 
 
 
