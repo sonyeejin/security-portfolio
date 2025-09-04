@@ -23,6 +23,7 @@ WLS2또한 가상머신 생성을 위한 프로그램인데 윈도우 10 이상�
 셸이 유저에게 입력을 받고 운영체제가 그것을 프로그램으로 처리 후 그 결과를 유저에게 출력한다.  
 
 <img width="294" height="60" alt="image" src="https://github.com/user-attachments/assets/ef965ac9-82ed-44f0-aa30-24fbb4336bc9" />  
+
 우분투 터미널을 열고 bash가 실행되면 위와 같은 텍스트가 출력되는데 이것이 셸 프롬프트다
 
 * 명령어  
