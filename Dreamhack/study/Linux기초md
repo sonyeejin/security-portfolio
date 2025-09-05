@@ -100,12 +100,15 @@ ex) ls -l | grep hello  는 명령어 ls -l 의 출력 결과에서 hello가 포
 파일과 디렉토리에 접근은 권한을 통해 제어 한다. 읽기(r) 쓰기(w) 실행(e)의 세 종류가 있다.  
 권한을 확인하려면 ls -l 명령어를 사용하면 된다. 
 
-<img width="752" height="176" alt="image" src="https://github.com/user-attachments/assets/ed791286-5a78-4198-bac0-c9fd4e5df5ca" />  
+<img width="752" height="176" alt="image" src="https://github.com/user-attachments/assets/ed791286-5a78-4198-bac0-c9fd4e5df5ca" />    
+
 첫째 열의 rw- 식의 표기가 권한을 의미한다. 세 번째 열은 소유자를 네 번째 열은 소유 그룹을 나타냄.  
 
-*  drwxrwxr-x
-  여기서 d는 디렉토리를 의미한다. -는 일반 파일 l은 링크파일을 나타낸다.
+*  drwxrwxr-x  
+  여기서 d는 디렉토리를 의미한다. -는 일반 파일 l은 링크파일을 나타낸다.  
   다음 rwx는 소유자의 권한을 , 그 다음의 rwx는 소유 그룹 안의 유저들의 권한을, 마지막의 r-x는 나머지 유저들에 대한 권한을 나타낸다.
+
+### 
 
 
 
